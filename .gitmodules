@@ -1,0 +1,3 @@
+[submodule "json-cxx"]
+	path = json-cxx
+	url = https://github.com/anaegel/json
