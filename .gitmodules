@@ -3,4 +3,4 @@
 	url = https://github.com/anaegel/json
 [submodule "json-lua"]
 	path = json-lua
-	url = git@github.com:anaegel/json.lua.git
+	url = https://github.com/anaegel/json/json.lua
