@@ -1,6 +1,5 @@
 # external_JSON
-Third party tools for JSON
-
+Third party tools for JSON. Consult individual licenses for details about packages.
 
 
 To install this software:
@@ -13,5 +12,4 @@ git submodule init
 
 git submodule update
 
-4) Now you have external libraries installed.
-5) Consult individual licenses for these packages.
+4) Now you have external libraries installed. Configure UG4 with CMakeFlags '-DUSE_JSON' and recompile!
