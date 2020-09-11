@@ -1,6 +1,6 @@
 [submodule "json-cxx"]
 	path = json-cxx
-	url = https://github.com/anaegel/json
+	url = https://github.com/nlohmann/json
 [submodule "json-lua"]
 	path = json-lua
 	url = https://github.com/anaegel/json.lua
