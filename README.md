@@ -4,13 +4,16 @@ Third party tools for JSON. Consult individual licenses for details about packag
 To install this software:
 
 
-1) Install via ughub. This creates externals/JSONForUG4
-
-2) Go to ``externals/JSONForUG4``. Install via:
+1) Install via ughub. This creates ``externals/JSONForUG4``
 
 ```
-git submodule init
-git submodule update
+ughub install JSONForUG4
+```
+2) Before the first execution, we need populate ``externals/JSONForUG4`` with submodules:
+
+```
+ughub git submodule init --- JSONForUG4
+ughub git submodule update --- JSONForUG4
 ```
 
 3) Now you have external libraries installed. Configure UG4 with CMakeFlags '-DUSE_JSON' and recompile!
